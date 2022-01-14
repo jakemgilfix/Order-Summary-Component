@@ -13,6 +13,10 @@ module.exports = {
       fontFamily: {
         sans: ['Red Hat Display', 'sans-serif'],
       },
+      backgroundImage: {
+        'desktop': "url('./images/pattern-background-desktop.svg')",
+        'mobile': "url('./images/pattern-background-mobile.svg')",
+      },
     },
   },
   plugins: [],

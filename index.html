@@ -23,22 +23,30 @@
     </style>
   </head>
   <body class="
-    bg-paleblue
+    bg-mobile sm:bg-desktop bg-contain bg-no-repeat bg-paleblue
     flex flex-col items-center justify-center
     h-screen
     font-sans"
   >
     <!-- card -->
-    <main class="flex flex-col rounded-xl bg-white w-[350px] items-center">
+    <main class="
+      flex flex-col items-center
+      rounded-2xl
+      w-[330px] sm:w-[450px]
+      bg-white shadow-lg"
+    >
       <img
         src="./images/illustration-hero.svg"
         alt="<Insert alt text here>"
-        class="rounded-t-xl w-full"
+        class="rounded-t-2xl w-full"
       />
       
       <!-- card content -->
-      <div class="flex flex-col items-center p-8 space-y-3">
-        <h1 class="text-[22px] font-[900] text-darkblue">
+      <div class="
+        flex flex-col items-center 
+        px-7 sm:px-11 py-8 sm:py-10 space-y-6 sm:space-y-7"
+      >
+        <h1 class="text-[23px] sm:text-[28px] font-[900] text-darkblue">
           Order Summary
         </h1>
 
@@ -50,45 +58,49 @@
         <!-- pricing -->
         <div class="
           flex flex-row items-center justify-between
-          w-full p-4
+          w-full py-5 sm:py-6 px-4 sm:px-6
           bg-verypaleblue
-          rounded-lg"
+          rounded-xl"
         >
-          <div class="flex flex-row items-center space-x-3">
+          <div class="flex flex-row items-center space-x-4">
             <img 
               src="./images/icon-music.svg"
               alt=""
             />
-            <div class="space-y-0 text-left">
-              <h2 class="text-[16px] font-[900] text-darkblue">
+            <div class="space-y-0 sm:space-y-1 text-left">
+              <h2 class="text-[15px] sm:text-[16px] font-[900] text-darkblue">
                 Annual Plan
               </h2>
-              <p class="text-desaturatedblue text-[16px] font-[500]">
+              <p class="text-desaturatedblue text-[15px] sm:text-[16px] font-[500]">
                 $59.99/year
               </p>
             </div>
           </div>
           <a
             href="#"
-            class="text-brightblue text-[14px] font-[700] underline"
+            class="
+              text-brightblue hover:text-[#766CF1]
+              text-[13px] sm:text-[14px] font-[700] underline hover:no-underline"
           >
             Change
           </a>
         </div>
 
-        <!-- buttons -->
-        <button class="
-          w-full rounded-lg
-          py-3
-          bg-brightblue hover:bg-[#766CF1]
-          text-white
-          text-[14px] font-[700]"
-        >
-          Proceed to Payment
-        </button>
+        <!-- "buttons" -->
         <a
           href="#"
-          class="text-desaturatedblue text-[14px] font-[700]"
+          class="
+            w-full rounded-xl
+            py-[14px]
+            bg-brightblue hover:bg-[#766CF1]
+            text-white drop-shadow-2xl
+            text-[14px] font-[700] text-center"
+        >
+          Proceed to Payment
+        </a>
+        <a
+          href="#"
+          class="text-desaturatedblue hover:text-darkblue text-[14px] font-[700]"
         >
           Cancel Order
         </a>
