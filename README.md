@@ -41,8 +41,9 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/installation) - Tailwind CSS is a utility-first framework packed with classes that can be composed to build any design. It's very powerful and easy to use. The documentation is excellent and there are also YouTube videos made by the Tailwind team.
+- [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a pretty decent overview for how flexbox works.
+- [HTML5 Accessibility](http://stevefaulkner.github.io/HTML5accessibility/) - A good overview of HTML5's accessibility features, including which browsers support which features.
 
 ## Author
 
